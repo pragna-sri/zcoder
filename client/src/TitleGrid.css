@@ -1,0 +1,115 @@
+/* Container for the entire grid */
+.container {
+    padding: 40px;
+  }
+  
+  /* Grid container */
+  .title-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  /* Individual title item */
+  .title-item {
+    background-color: transparent;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px;
+    height: 235px;  /* Set a fixed height */
+    overflow: hidden;  /* Hide overflow content */
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .title-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title and contest link */
+  .title-item h2 {
+    font-size: 1.2em;
+    margin: 0 0 10px 0;
+    overflow: hidden; /* Hide overflow content for heading */
+    text-overflow: ellipsis; /* Show ellipsis for overflow */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+  
+  .title-item p {
+    margin: 5px 0;
+    color: #2d2b2b;
+  }
+  .title-item .head{
+    font-weight: bold;
+  }
+  .start {
+    color: rgb(5, 138, 5);
+    font-weight: bold;
+  }
+  .end{
+    color: red;
+    font-weight: bold;
+  }
+  
+  .title-item a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .title-item a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Title details popup */
+  .title-details {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    z-index: 1000;
+  }
+  
+  .title-details.active {
+    display: block;
+
+  }
+  
+  /* Close button */
+  .title-details button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .title-details button:hover {
+    background: #0056b3;
+  }
+  
+  /* Navbar */
+  .Navbar {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Calendar container */
+  .Calendar {
+    padding: 20px;
+  }

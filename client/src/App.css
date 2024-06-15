@@ -1,0 +1,459 @@
+.sign-up-container{
+  position: relative;
+  width: 400px;
+  height: 450px;
+  background: white;
+  border-radius: 10px;
+  color: rgb(2, 3, 4);
+  box-shadow: 3px 3px rgb(0, 5, 6);
+  display: flex;
+  align-items: center;
+  
+  transition: height .2s ease;
+}
+.sign-up-container .form-box {
+  width: 100%;
+  padding: 40px;
+  margin-left: 0px;
+  
+}
+.signlog{
+  position: fixed;
+  top: 0.5%;
+  left: 0;
+  padding-left: 20px;
+  font-size: 36px;
+}
+.signZ{
+  color: rgba(43, 42, 42, 0.764);
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  padding-left: 10px;
+}
+.tot{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 33px;
+  color: rgba(0, 0, 0, 0.759);
+}
+label{
+  display: block;
+  margin-bottom: 8px;
+}
+input{
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+
+form h2 {
+  font-size: 36px;
+  text-align: center;
+  color:rgba(0, 0, 0, 0.945);
+}
+
+form .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 20px 0;
+}
+
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgb(61, 112, 174);
+  border-radius: 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+}
+
+.input-box input::placeholder {
+  color: rgb(0, 4, 7);
+}
+
+.input-box .icon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translate(0, -50%);
+  font-size: 33px;
+}
+
+form .remember-forgot {
+  padding-top: 23px;
+  padding-left: 96px;
+  display: flex;
+  font-style: none;
+  font-weight: 150;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  margin-right: 4px;
+}
+
+.remember-forgot a {
+  color: black;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+form button {
+  width: 100%;
+  height: 45px;
+  background:linear-gradient(45deg,  cyan,#f089dd);
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+form button:hover{
+  background:linear-gradient(45deg,  rgb(6, 208, 208),#e73ec8);
+  color: rgb(210, 210, 210);
+}
+form .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.register-link p a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.Login-Signup{
+  font-size: 21px;
+}
+
+
+.cont{
+  padding-left: 150px;
+  font-weight: 700;
+  width: 90%; 
+  font-size: 30px;
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.pic img{
+  width: 50% ;
+  margin-left: 250px;
+  
+}
+
+.h {
+  display: flex;
+  
+}
+.nav{
+  background:linear-gradient(45deg,  rgb(64, 240, 252),#ff56bb);
+  color: black
+  ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 18px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav .Z{
+  color: rgba(43, 42, 42, 0.764);
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  margin-left: 5px;
+}
+.nav .icon{
+  font-family: "Jaro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 33px;
+  color: rgba(0, 0, 0, 0.759);
+}
+.nav .icon:hover{
+  color: aliceblue;
+}
+
+.nav a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.nav a:hover{
+  color: aliceblue;
+}
+
+
+
+.nav ul {
+  padding: 1px;
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+.icon {
+  padding-left: 15px;
+  font-size: 30px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 800;
+}
+
+.pr{
+  font-weight: 550;
+  padding-left: 50px;
+  font-size: 22px;
+  font-family: "Poppins", sans-serif;
+
+}
+.prof{
+  padding-left: 555px;
+  font-size: 22px;
+  color: rgb(154, 154, 154);
+  font-weight: 550;
+  
+}
+
+.proic{
+  font-size: 16px;
+}
+
+.profile{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.rank{
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 700;
+  margin-left: -500px;
+}
+
+
+.nav .logozz{
+  position: fixed;
+  left: 0;
+  top: 0.5%;
+  font-size: 36px;
+  padding-left: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.probhead{
+  position: absolute;
+  top: 10%;
+  left: 39%;
+  font-size: 25px;
+}
+.mid{
+  font-weight: bold;
+  
+}
+.pubton{
+  width: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  margin-top: 2px;
+}
+.probname{
+  font-size: 20px;
+  font-weight: 600;
+}
+.hint{
+  font-weight: bold;
+}
+.addn{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.addbut{
+  width: 130px;
+  margin-left: 10px;
+  margin-top: 0;
+}
+.problem-name-input {
+  width: 600px;
+}
+
+.problem-link-input {
+  width: 600px;
+}
+
+.dash {
+  font-weight: bold;
+  font-size: 30px;
+  position: fixed;
+  top: 60px; /* Adjust this value based on the height of your Navbar */
+  left: 600px; /* Adjust this value as needed */
+  z-index: 1000; /* Ensure it's above other elements */
+
+}
+.procont{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dashcont {
+  margin-top: 80px; /* Adjust this value to provide space below the fixed heading */
+  font-size: 20px;
+  font-weight: bolder;
+  margin-left: -600px;
+}
+
+.com{
+  margin-top: 10px;
+}
+.subcom{
+  width: 100px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+
+.problems-container {
+  padding: 20px;
+}
+
+.problems-container h1 {
+  text-align: center;
+}
+
+.problems-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.problems-container li {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.problems-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  width: auto;
+}
+
+.problems-container button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.modal {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  position: relative;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.profile {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+}
+
+.rank {
+  margin-bottom: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+}
+
+input[type='text']::placeholder {
+  color: #ccc;
+}
+
+.logout-btn {
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.logout-btn:hover {
+  background-color: #d32f2f;
+}
