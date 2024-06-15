@@ -1,0 +1,13 @@
+{
+  "name": "zcoder",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "dev": "concurrently \"npm run start\" \"npm run client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
