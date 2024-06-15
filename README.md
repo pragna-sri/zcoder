@@ -1,5 +1,7 @@
-**EvenSem Project** - ZCoder, Coding Club IIT Guwahati
-**Zcoder Project**
+##  ZCoder
+- EvenSem Project, Coding Club IIT Guwahati
+
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
