@@ -44,7 +44,7 @@ Zcoder is a dynamic platform designed for developers to enhance their coding ski
 
 **Authentication**: bcrypt.js for password hashing and JSON Web Tokens for secure authentication.
 
-### Contributers
+### Contributors
 
 - Nagasarapu Venkata Koushik ([@NVKoushik](https://github.com/NVKoushik))
 
